@@ -12,6 +12,7 @@ Stored Employee's information in Map's.
 Spring Data
 ----------------
 Stored Employee's information in H2 database with JpaRepository without querying.
+Added custom exception with GlobalControllerAdvice.
 
 MySQL JDBC
 ----------------
