@@ -23,4 +23,4 @@ Hibernate
 ----------------
 Added "Project" entity for using save as Employee's Projects.
 "entityManagerFactory" bean added for database operations.
-Used entityManager, no session. 
+Used entityManager, no session.  
