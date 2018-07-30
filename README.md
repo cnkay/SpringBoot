@@ -9,11 +9,11 @@ InMemoryDatabase
 ----------------
 Stored Employee's information in Map's.
 
-SpringData
+Spring Data
 ----------------
 Stored Employee's information in H2 database with JpaRepository without querying.
 
-MYSQL JDBC
+MySQL JDBC
 ----------------
 Stored Employee's information in MySQL database(change application.properties) with JDBC Template.
 Added ResultSetExtractor and RowMapper implementation classes for JDBC Template.
