@@ -24,9 +24,9 @@ public class InMemoryEmployeeDaoImpl implements EmployeeDao {
 
 	@Override
 	public Long save(Employee employee) {
-		Long id = increaseAndGetId();
-		employee.setId(id);
-		employees.put(id, employee);
+		idCounter = increaseAndGetId();
+		employee.setId(idCounter);
+		employees.put(idCounter, employee);
 		employeesByCitizenNumber.put(employee.getCitizenNumber(), employee);
 		employeesByUsername.put(employee.getUsername(), employee);
 		return employee.getId();
